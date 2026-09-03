@@ -6,11 +6,14 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro check && astro build",
-    "preview": "astro preview",
-    "check": "astro check"
+    "preview": "npm run build && wrangler dev",
+    "check": "astro check",
+    "generate-types": "wrangler types",
+    "deploy": "npm run build && wrangler deploy"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.10",
+    "@astrojs/cloudflare": "^14.3.0",
     "astro": "^7.3.1",
     "typescript": "^6.0.3"
   },
@@ -18,5 +21,8 @@
     "node": ">=26.0.0",
     "npm": ">=12.0.0"
   },
-  "packageManager": "npm@12.0.2"
+  "packageManager": "npm@12.0.2",
+  "devDependencies": {
+    "wrangler": "^4.129.0"
+  }
 }
