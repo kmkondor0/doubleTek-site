@@ -1,0 +1,36 @@
+# Dependencies and generated output
+node_modules/
+dist/
+.astro/
+
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+
+# Package manager, build and test artefacts
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.tsbuildinfo
+.eslintcache
+coverage/
+reports/
+playwright-report/
+test-results/
+
+# Deployment and local tool state
+.vercel/
+.netlify/
+.wrangler/
+.cloudflare/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
