@@ -15,15 +15,16 @@ Sitio institucional bilingüe de DoubleTek, construido para proyectar una firma 
 
 | Área | Elección |
 | --- | --- |
-| Framework | [Astro](https://astro.build/) 5 |
-| Lenguaje | TypeScript / JavaScript del navegador |
+| Framework | [Astro](https://astro.build/) 7.3 |
+| Bundler | Vite 8, integrado por Astro |
+| Lenguaje | TypeScript 6 / JavaScript del navegador |
 | Estilos | CSS moderno, sin framework de runtime |
 | Hosting | Cloudflare Pages o GCP Cloud Storage + Cloudflare CDN |
 
 ## Requisitos
 
-- Node.js 20 LTS o superior
-- npm 10 o superior
+- Node.js 26.0 o superior (el proyecto se fija a 26.8.1 mediante `.nvmrc`)
+- npm 12.0 o superior
 
 ## Desarrollo local
 
@@ -78,6 +79,7 @@ public/             # Archivos públicos sin transformación
 - Revisa el contenido comercial en `src/i18n/es.json` y `src/i18n/en.json`; ambos archivos deben cambiarse en conjunto.
 - El formulario no transmite datos a un servicio externo. Si se requiere captura de leads sin cliente de correo, integra Formspree, Resend o una función segura y conserva las credenciales exclusivamente en variables de entorno.
 - Mantén `package-lock.json` versionado para instalaciones reproducibles. Nunca subas `node_modules/`, `dist/` ni archivos `.env`.
+- TypeScript 6 se mantiene de forma intencional: la versión actual de `@astrojs/check` solo declara compatibilidad con TypeScript 5 y 6. Actualizar a TypeScript 7 se evaluará cuando Astro Check añada soporte oficial, para no perder la comprobación de componentes `.astro`.
 
 ## Calidad y accesibilidad
 
