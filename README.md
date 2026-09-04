@@ -50,7 +50,7 @@ npm run preview
 ### Cloudflare Pages
 
 1. Conecta el repositorio a Cloudflare Pages.
-2. Selecciona Node.js 20 o superior.
+2. Selecciona Node.js 26 o superior.
 3. Configura `npm run build` como **Build command**.
 4. Configura `dist` como **Build output directory**.
 5. Asocia `doubletek.vip` cuando el dominio esté listo.
