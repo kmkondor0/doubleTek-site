@@ -85,6 +85,13 @@ public/             # Archivos públicos sin transformación
 
 El sitio está diseñado para una experiencia de alto contraste, navegación por anclas, controles accesibles y reducción automática de animación cuando el sistema operativo del visitante lo solicita. Valida el build antes de cada publicación con `npm run build`.
 
-## Licencia
+## Titularidad y Propiedad Intelectual
 
-© 2026 DoubleTek. Todos los derechos reservados.
+© 2026 DOUBLETEK S.A.S. DE C.V. Todos los derechos reservados.
+
+El código fuente, arquitectura, diseño, marcas, logotipos y contenidos de este repositorio son propiedad exclusiva de **DOUBLETEK S.A.S. DE C.V.** y se encuentran protegidos por la Ley Federal del Derecho de Autor, la Ley Federal de Protección a la Propiedad Industrial y tratados internacionales aplicables.
+
+Queda prohibida su reproducción, distribución, modificación o explotación comercial total o parcial sin autorización previa y por escrito de la sociedad.
+
+- **Razón Social:** DOUBLETEK S.A.S. DE C.V.
+- **Contacto:** contacto@doubletek.vip
